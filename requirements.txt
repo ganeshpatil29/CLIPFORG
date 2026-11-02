@@ -1,0 +1,4 @@
+streamlit>=1.40,<2
+faster-whisper>=1.1,<2
+av<19
+opencv-python-headless>=4.10,<5

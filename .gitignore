@@ -1,0 +1,33 @@
+# Local Python environments and temporary setup files
+.venv/
+.bootstrap/
+.tmp/
+.virtualenv-cache/
+__pycache__/
+*.py[cod]
+
+# User videos, transcripts, exports, and job state
+jobs/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4v
+*.avi
+*.wav
+*.flac
+*.partial*
+
+# Local model/app caches and downloaded tools
+AppData/
+tools/
+models/
+
+# Local Streamlit identity and credentials
+.streamlit/credentials.toml
+.streamlit/machine_id*
+
+# Secrets and local logs
+.env
+.env.*
+*.log
